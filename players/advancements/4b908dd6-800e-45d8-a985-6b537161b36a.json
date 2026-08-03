@@ -658,6 +658,8 @@
       "minecraft:skeleton": "2026-05-03 14:48:06 +0200",
       "minecraft:zombified_piglin": "2026-06-08 03:45:45 +0200",
       "minecraft:witch": "2026-06-17 03:04:06 +0200",
+      "minecraft:wither_skeleton": "2026-08-04 00:09:29 +0200",
+      "minecraft:ghast": "2026-08-04 00:08:05 +0200",
       "minecraft:ender_dragon": "2026-06-09 03:04:37 +0200",
       "minecraft:hoglin": "2026-05-10 20:01:18 +0200",
       "minecraft:shulker": "2026-08-02 18:38:25 +0200",
@@ -669,6 +671,7 @@
       "minecraft:zombie": "2026-05-03 14:47:30 +0200",
       "minecraft:creeper": "2026-05-03 20:01:45 +0200",
       "minecraft:drowned": "2026-05-25 20:54:09 +0200",
+      "minecraft:wither": "2026-08-04 00:41:05 +0200",
       "minecraft:zombie_villager": "2026-05-28 20:59:17 +0200",
       "minecraft:slime": "2026-05-04 01:04:20 +0200"
     },
@@ -2490,7 +2493,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2026-05-03 18:19:44 +0200",
       "minecraft:nether_wastes": "2026-05-03 18:23:01 +0200",
-      "minecraft:soul_sand_valley": "2026-08-02 17:35:22 +0200"
+      "minecraft:soul_sand_valley": "2026-08-02 17:35:22 +0200",
+      "minecraft:basalt_deltas": "2026-08-04 00:10:09 +0200"
     },
     "done": false
   },
@@ -5233,6 +5237,114 @@
   "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2026-08-03 02:34:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2026-08-04 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2026-08-04 00:08:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-08-04 00:11:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-08-04 00:11:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2026-08-04 00:54:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_pink_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 01:11:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-08-04 00:34:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2026-08-04 01:11:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 01:11:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2026-08-04 01:11:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-08-04 00:34:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pink_bundle": {
+    "criteria": {
+      "has_pink_dye": "2026-08-04 01:11:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2026-08-04 00:54:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2026-08-04 00:41:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-08-04 01:12:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 01:11:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-08-04 01:11:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2026-08-04 00:31:14 +0200"
     },
     "done": true
   },
