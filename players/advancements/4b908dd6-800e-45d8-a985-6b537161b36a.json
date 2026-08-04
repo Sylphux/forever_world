@@ -656,9 +656,11 @@
       "minecraft:blaze": "2026-05-03 18:24:26 +0200",
       "minecraft:pillager": "2026-05-03 19:20:24 +0200",
       "minecraft:skeleton": "2026-05-03 14:48:06 +0200",
+      "minecraft:parched": "2026-08-04 02:39:35 +0200",
       "minecraft:zombified_piglin": "2026-06-08 03:45:45 +0200",
       "minecraft:witch": "2026-06-17 03:04:06 +0200",
       "minecraft:wither_skeleton": "2026-08-04 00:09:29 +0200",
+      "minecraft:husk": "2026-08-04 02:19:33 +0200",
       "minecraft:ghast": "2026-08-04 00:08:05 +0200",
       "minecraft:ender_dragon": "2026-06-09 03:04:37 +0200",
       "minecraft:hoglin": "2026-05-10 20:01:18 +0200",
@@ -5264,7 +5266,37 @@
     },
     "done": true
   },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2026-08-04 00:31:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-08-04 00:34:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-08-04 00:34:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2026-08-04 00:41:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2026-08-04 00:54:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
     "criteria": {
       "beacon": "2026-08-04 00:54:57 +0200"
     },
@@ -5273,12 +5305,6 @@
   "minecraft:recipes/combat/dye_pink_harness": {
     "criteria": {
       "has_needed_dye": "2026-08-04 01:11:50 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2026-08-04 00:34:02 +0200"
     },
     "done": true
   },
@@ -5300,33 +5326,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2026-08-04 00:34:02 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/pink_bundle": {
     "criteria": {
       "has_pink_dye": "2026-08-04 01:11:50 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/create_full_beacon": {
-    "criteria": {
-      "beacon": "2026-08-04 00:54:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2026-08-04 00:41:06 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-08-04 01:12:03 +0200"
     },
     "done": true
   },
@@ -5342,9 +5344,9 @@
     },
     "done": true
   },
-  "minecraft:nether/summon_wither": {
+  "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
-      "summoned": "2026-08-04 00:31:14 +0200"
+      "has_glass": "2026-08-04 01:12:03 +0200"
     },
     "done": true
   },
